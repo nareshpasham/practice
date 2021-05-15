@@ -9,7 +9,6 @@ public class Java8featuresApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Java8featuresApplication.class, args);
-		System.out.println("Kool");
-	}
+			}
 
 }
