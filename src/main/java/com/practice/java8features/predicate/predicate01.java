@@ -12,7 +12,7 @@ public class predicate01 {
 	final static Logger logger=LoggerFactory.getLogger(predicate01.class);
 	public static void main(String[] args) {
 		Predicate<Integer> evenNumber=i->i%2==0;
-		logger.info("Even number {} NareshKumar",evenNumber.test(10));
+		logger.info("Even number {} ",evenNumber.test(10));
 		logger.info("Even number {}",evenNumber.test(15));
 		Predicate<Employee> emp=e->e.getAge()>30 && e.getEmpName().startsWith("s");
 		logger.info("Employee conditions satisfy {}",emp.test(new Employee("suresh",1,"Lhouse",35)));
